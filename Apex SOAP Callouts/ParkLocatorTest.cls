@@ -7,7 +7,7 @@ private class ParkLocatorTest {
         String country = 'United States';
         List<String> result = ParkLocator.country(country);
         // Verify that a fake result is returned
-        List<String> expectedResultParks = new List<String>{'Yosemite'};
+		List<String> expectedResultParks = new List<String>{'Yosemite National Park', 'Grand Canyon National Park', 'Yellowstone National Park'};
         System.assertEquals(expectedResultParks, result); 
     }
 }
